@@ -5,13 +5,13 @@ The ` DBA_SQL_FIREWALL_ALLOWED_SQL ` data dictionary view shows the SQL that a u
 For example: 
     
     
-    ```
-    SELECT SQL_TEXT, ACCESSED_OBJECTS FROM DBA_SQL_FIREWALL_ALLOWED_SQL WHERE USERNAME = 'HR';
-     
-    SQL_TEXT                            ACCESSED_OBJECTS  
-    ----------------------------------- ------------------
-    SELECT COUNT(*) FROM HR.EMPLOYEES   "HR"."EMPLOYEES'        
-    ```
+```
+SELECT SQL_TEXT, ACCESSED_OBJECTS FROM DBA_SQL_FIREWALL_ALLOWED_SQL WHERE USERNAME = 'HR';
+ 
+SQL_TEXT                            ACCESSED_OBJECTS  
+----------------------------------- ------------------
+SELECT COUNT(*) FROM HR.EMPLOYEES   "HR"."EMPLOYEES'        
+```
 
 **Related Topics**
 
