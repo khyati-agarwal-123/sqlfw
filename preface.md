@@ -44,10 +44,10 @@ Oracle Technical Services
 To download the product data sheet, frequently asked questions, links to the latest product documentation, product download, and other collateral, visit Oracle Technical Resources (formerly Oracle Technology Network). You must register online before using Oracle Technical Services. Registration is free and can be done at 
     
     
-    ```
-    https://www.oracle.com/technical-resources/
-    
-    ```
+```
+https://www.oracle.com/technical-resources/
+
+```
 
 My Oracle Support 
 
