@@ -46,10 +46,10 @@ These are the prerequisites for using the SQL Firewall feature in Data Safe:
 
 To use the full functionality of SQL Firewall it is recommended to be granted ` manage ` permissions on ` data-safe-sql-firewall-family ` in the relevant compartments. 
     
-        ```
-    Allow group  to manage data-safe-sql-firewall-family in compartment
-            
-    ```
+```
+Allow group  to manage data-safe-sql-firewall-family in compartment
+    
+```
 
 Alternatively, administrators may grant more selective permissions by granting permissions to specific resources within ` data-safe-sql-firewall-family ` . For more information on the resources contained within ` data-safe-sql-firewall-family ` , see [ ` data-safe-sql-firewall-family ` Resource ](https://docs.oracle.com/pls/topic/lookup?ctx=en/cloud/paas/data-safe&id=ADMDS-GUID-13D2E74D-6FED-418C-A1B6-99289CADAD45) . 
 
