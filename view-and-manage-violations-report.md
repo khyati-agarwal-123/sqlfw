@@ -77,23 +77,23 @@ To clear the query builder, click  Clear  . This will clear any basic filters ap
 Example 2-1 Context violations and SQL violations that are allowed advanced filter 
     
     
-    ```
-    (violationAction eq "ALLOWED")  and ((violationCause eq "context violation") or (violationCause  eq "SQL violation"))
-    ```
+```
+(violationAction eq "ALLOWED")  and ((violationCause eq "context violation") or (violationCause  eq "SQL violation"))
+```
 
 Example 2-2 SQL violations on a specific target database advanced filter 
     
     
-    ```
-    (targetName eq "HRApps") and (violationCause eq "SQL violation")
-    ```
+```
+(targetName eq "HRApps") and (violationCause eq "SQL violation")
+```
 
 Example 2-3 Actions taken on two specific databases since a specifc time advanced filter 
     
-    
-    ```
-    (operationTime ge "2023-09-11T00:39:43.295Z") and ((targetName eq "HRApps") or (targetName eq "TF_AUTOMATION"))
-    ```
+
+```
+(operationTime ge "2023-09-11T00:39:43.295Z") and ((targetName eq "HRApps") or (targetName eq "TF_AUTOMATION"))
+```
 
 ###  Tips for Using the Filter Builder to Create Advanced Filters {#GUID-92279D98-D764-48E0-9E3E-7CD78BD345AC} 
 
