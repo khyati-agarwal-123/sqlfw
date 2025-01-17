@@ -6,10 +6,10 @@ You can set SQL Firewall trace events in both the CDB and in individual PDBs.
 
   * To enable tracing for SQL Firewall, use one of the following statements: 
     
-        ```
-    ALTER SESSION SET EVENTS 'TRACE[SQL_FIREWALL] DISK=trace_level';
-    ALTER SYSTEM SET EVENTS 'TRACE[SQL_FIREWALL] DISK=trace_level';
-    ```
+```
+ALTER SESSION SET EVENTS 'TRACE[SQL_FIREWALL] DISK=trace_level';
+ALTER SYSTEM SET EVENTS 'TRACE[SQL_FIREWALL] DISK=trace_level';
+```
 
 In this specification, replace ` trace_level  ` with one of the following values: 
 
@@ -18,10 +18,10 @@ In this specification, replace ` trace_level  ` with one of the following values
     * ` HIGHEST ` shows the most detailed tracing information, plus the information returned by ` HIGH ` and ` LOW ` . 
   * To disable tracking for SQL Firewall, use one of the following statements: 
     
-        ```
-    ALTER SESSION SET EVENTS 'TRACE[SQL_FIREWALL] OFF';
-    ALTER SYSTEM SET EVENTS 'TRACE[SQL_FIREWALL] OFF';
-    ```
+```
+ALTER SESSION SET EVENTS 'TRACE[SQL_FIREWALL] OFF';
+ALTER SYSTEM SET EVENTS 'TRACE[SQL_FIREWALL] OFF';
+```
 
 
 
