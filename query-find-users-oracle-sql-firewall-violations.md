@@ -5,13 +5,13 @@ The ` DBA_SQL_FIREWALL_VIOLATIONS ` data dictionary view shows the Oracle SQL Fi
 For example: 
     
     
-    ```
-    SELECT SQL_TEXT, OCCURRED_AT, FIREWALL_ACTION FROM DBA_SQL_FIREWALL_VIOLATIONS WHERE USERNAME = 'HR';
-     
-    SQL_TEXT                           OCCURRED_AT                         FIREWALL_ACTION
-    ---------------------------------- ----------------------------------  –--------------
-    SELECT COUNT(*) FROM HR.EMPLOYEES  12-OCT-23 10.30.02.238383 AM +00:00 BLOCKED
-    ```
+```
+SELECT SQL_TEXT, OCCURRED_AT, FIREWALL_ACTION FROM DBA_SQL_FIREWALL_VIOLATIONS WHERE USERNAME = 'HR';
+ 
+SQL_TEXT                           OCCURRED_AT                         FIREWALL_ACTION
+---------------------------------- ----------------------------------  –--------------
+SELECT COUNT(*) FROM HR.EMPLOYEES  12-OCT-23 10.30.02.238383 AM +00:00 BLOCKED
+```
 
 **Related Topics**
 
