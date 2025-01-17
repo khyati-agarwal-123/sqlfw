@@ -49,9 +49,9 @@ You can use the ` expdp ` and ` impdp ` commands to export and import Oracle SQL
   2. At the command line, perform the Oracle Data Pump export or import operation. 
      * To export SQL Firewall metadata, use the following syntax: 
         
-                ```
-        expdp user_name@pdb_name FULL=Y DIRECTORY=dumpfile_dir INCLUDE=SQL_FIREWALL dumpfile=dumpfile_name.dmp LOGFILE=filename.log
-        ```
+```
+expdp user_name@pdb_name FULL=Y DIRECTORY=dumpfile_dir INCLUDE=SQL_FIREWALL dumpfile=dumpfile_name.dmp LOGFILE=filename.log
+```
 
 In this specification: 
 
@@ -60,23 +60,23 @@ In this specification:
 
 For example: 
         
-                ```
-        expdp "hr@hr_pdb" FULL=Y DIRECTORY=sql_fw_dumpfiles INCLUDE=SQL_FIREWALL DUMPFILE=sql_fw_app.dmp LOGFILE=sql_fw_app.log
-        Enter password: password
-        ```
+```
+expdp "hr@hr_pdb" FULL=Y DIRECTORY=sql_fw_dumpfiles INCLUDE=SQL_FIREWALL DUMPFILE=sql_fw_app.dmp LOGFILE=sql_fw_app.log
+Enter password: password
+```
 
      * To import SQL Firewall metadata: 
         
-                ```
-        impdp user_name@pdb_name FULL=Y DIRECTORY=dumpfile_dir INCLUDE=SQL_FIREWALL dumpfile=dumpfile_name.dmp LOGFILE=filename.log 
-        ```
+```
+impdp user_name@pdb_name FULL=Y DIRECTORY=dumpfile_dir INCLUDE=SQL_FIREWALL dumpfile=dumpfile_name.dmp LOGFILE=filename.log 
+```
 
 For example: 
         
-                ```
-        impdp "hr@hr_pdb" FULL=Y DIRECTORY=dumpfile_dir INCLUDE=SQL_FIREWALL dumpfile=sql_fw_app.dmp LOGFILE=sql_fw_app.log
-        Enter password: password
-        ```
+```
+impdp "hr@hr_pdb" FULL=Y DIRECTORY=dumpfile_dir INCLUDE=SQL_FIREWALL dumpfile=sql_fw_app.dmp LOGFILE=sql_fw_app.log
+Enter password: password
+```
 
 
 
